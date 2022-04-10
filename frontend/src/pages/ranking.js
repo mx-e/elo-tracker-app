@@ -6,7 +6,7 @@ import { api } from "../api/api";
 
 const Ranking = () => {
   let { groupId } = useParams();
-  const [groupData, requestState, setRequestState] = useFirebaseQuery(
+  const [groupData, requestState,] = useFirebaseQuery(
     "groupData/" + groupId + "/"
   );
   const [rankingData, setRankingData] = useState(null);
@@ -51,7 +51,7 @@ const Ranking = () => {
           {Object.entries(players)
             .sort(([key_a], [key_b]) =>
               rankingData[key_a][lastTimestamp].mu >
-              rankingData[key_b][lastTimestamp].mu
+                rankingData[key_b][lastTimestamp].mu
                 ? -1
                 : 1
             )

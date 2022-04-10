@@ -7,7 +7,7 @@ import {
   unmarshallPlayerSet,
 } from "../utils/utils";
 import { useForm } from "react-hook-form";
-import { cloneElement, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { api } from "../api/api";
 import MultiSelect from "../components/multi-select";
 

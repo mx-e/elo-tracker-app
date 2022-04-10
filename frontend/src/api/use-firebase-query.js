@@ -14,7 +14,7 @@ export const useFirebaseQuery = (queryString) => {
       setData(queryData);
       setRequestState(RequestStates.IDLE);
     });
-  }, []);
+  }, [queryString]);
 
   return [data, requestState, setRequestState];
 };
