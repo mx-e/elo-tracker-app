@@ -1,0 +1,36 @@
+{
+  "groups": {
+    "fdzeuh3": {
+      "name": "Test 1"
+    }
+  },
+  "groupData":{
+    "fdzeuh3": {
+      "name": "Test 1",
+      "players": {
+        "fvvrsbf": {
+          "name": "Max"
+        },
+        "frzgse": {
+          "name": "Christian"
+        },
+        "bsndv": {
+          "name": "Gabriel"
+        }
+      },
+      "games": [
+        {
+          "name": "Test Game",
+          "timestamp": "2020-08-12T18:24:24+0200",
+          "winners": {
+            "frzgse": true
+          },
+          "losers": {
+            "bsndv": true,
+            "fvvrsbf": true
+          }
+        }
+      ]
+    }
+  }
+}

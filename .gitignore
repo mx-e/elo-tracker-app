@@ -1,0 +1,6 @@
+**/__pypackages__/
+**/__pycache__/
+firebase-debug.log
+**.idea/
+
+

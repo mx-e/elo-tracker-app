@@ -1,0 +1,24 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "mx-e", email = "maxi.eissler@gmail.com"},
+]
+license-expression = "MIT"
+dependencies = [
+    "trueskill>=0.4.5",
+    "fastapi>=0.75.1",
+    "uvicorn>=0.17.6",
+    "pydantic>=1.9.0",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = ""
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
