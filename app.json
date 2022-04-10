@@ -1,0 +1,9 @@
+{
+    "name": "ELO-Service",
+    "description": "Computes ELO scores",
+    "image": "heroku/python",
+    "repository": "https://github.com/mx-e/elo-tracker-app",
+    "keywords": [
+        "python"
+    ]
+}
